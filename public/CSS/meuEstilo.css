@@ -66,12 +66,41 @@
 .informacoes{
     margin:2% 2% 2% 2%;
     text-align:justify;
-    color:white;
+    color:black;
     font-size:24px;
 }
 .box{
+    background-image:url("../images/background_DE_texto.jpg");
     margin-top:0.5%;
     width:1200px;
     margin-left:650px;
     border:3px solid green;
+}
+#Estrutura_Da_Terra1{
+    position: absolute;
+    width:500px ;
+    height: 250px;
+    margin-left:4%;
+    margin-top:1%;
+    border:3px solid darkblue;
+}
+#label1{
+    margin-left:12%;
+    margin-top:14.5%;
+    color:white;
+    font-size:18px;
+}
+#Estrutura_Da_Terra2{
+    position: absolute;
+    width:500px ;
+    height: 250px;
+    margin-left:14%;
+    margin-top:1%;
+    border:3px solid darkblue;
+}
+#label2{
+    margin-left:22%;
+    margin-top:14.5%;
+    color:white;
+    font-size:18px;
 }
