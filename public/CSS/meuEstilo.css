@@ -1,6 +1,5 @@
 .navigation {
     background-color: darkblue;
-    position: fixed;
     border-radius: 0px 0px 30px 30px;
     padding: 20px;
     width: 100%;
@@ -26,6 +25,7 @@
 }
 
 .topButton {
+
     margin-left: 10px;
     text-align: right;
     border-radius: 10px;
@@ -44,13 +44,22 @@
     font-size: 25px;
 }
 
-.body {
-    margin-left: 0%;
-    margin-right: 0%;
+#TITULO{
+    margin-left:1%;
+    text-align: left;
+    color:white;
+    font-size:50px;
+    margin-top: 2%;
 }
-
-.content {
+#Terra{
+    color:green;
     text-align: center;
+    font-size: 50px ;
+    font-style: italic;
 }
-
-
+#PlanetaTerra{
+    width: 600px;
+    height:600px ;
+    margin-left:1%;
+    margin-top:2%;
+}
