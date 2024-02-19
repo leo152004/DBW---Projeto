@@ -1,0 +1,56 @@
+.navigation {
+    background-color: darkblue;
+    position: fixed;
+    border-radius: 0px 0px 30px 30px;
+    padding: 20px;
+    width: 100%;
+    overflow:hidden;
+    text-align: right;
+}
+
+.Logo{
+    width:60px ;
+    height: 50px;
+    flex:none;
+}
+
+.topButtonSimple{
+    color: white;
+    transition: ease-in-out 0.5s;
+    margin-top: 20px;
+}
+
+.topButtonSimple:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.topButton {
+    margin-left: 10px;
+    text-align: right;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    transition: ease-in-out 0.5s;
+    margin-top: 20px;
+}
+
+.topButton:hover {
+    border-radius: 25px;
+    color: yellow;
+    border: 2px solid yellow;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.body {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.content {
+    text-align: center;
+}
+
+
