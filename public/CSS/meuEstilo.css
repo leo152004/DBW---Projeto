@@ -66,8 +66,8 @@
     transform: translateX(200px);
 }
 
-.CoisaEspacial{
-    padding-top:50px;
+.CoisaEspacial {
+    padding-top: 50px;
 }
 
 #Terra{
@@ -125,25 +125,27 @@
     position: absolute;
     width:500px ;
     height: 300px;
-    margin-left:4%;
+    margin-left:5%;
     margin-top:1%;
     border:3px solid darkblue;
 }
 #label1{
     margin-left:12%;
-    margin-top:14.5%;
+    margin-top:17%;
     color:white;
     font-size:18px;
     border-radius: 10px;
 }
+
 #Estrutura_Da_Terra2{
     position: absolute;
     width:500px ;
-    height: 250px;
-    margin-left:14%;
+    height: 300px;
+    margin-left:13%;
     margin-top:1%;
     border:3px solid darkblue;
 }
+
 #label2{
     margin-left:22%;
     margin-top:14.5%;
