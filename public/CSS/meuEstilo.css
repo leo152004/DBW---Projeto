@@ -66,16 +66,36 @@
     transform: translateX(200px);
 }
 
+.CoisaEspacial{
+    padding-top:50px;
+}
+
 #Terra{
     color:green;
     text-align: center;
     font-size: 50px ;
     font-style: italic;
 }
-#PlanetaTerra{
+
+#Venus{
+    color:darkred;
+    text-align: center;
+    font-size: 50px ;
+    font-style: italic;
+}
+
+#Star {
+    color:yellow;
+    text-align: center;
+    font-size: 50px ;
+    font-style: italic;
+}
+
+.Planeta{
     width: 600px;
     height:600px ;
     margin-left:1%;
+    margin-top: 50px;
 }
 
 .informacoes{
@@ -85,13 +105,21 @@
     font-size:24px;
 }
 .box{
-    /*background-image:url("../images/background_DE_texto.jpg");*/
     margin-top:0.5%;
     width:1200px;
     margin-left:650px;
-    border:3px solid green;
     border-radius: 20px;
     background-color: black;
+}
+
+#TerraBox{
+    border:3px solid green;
+}
+#VenusBox{
+    border:3px solid darkred;
+}
+#StarBox{
+    border:3px solid yellow
 }
 #Estrutura_Da_Terra1{
     position: absolute;
