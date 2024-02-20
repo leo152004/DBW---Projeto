@@ -8,9 +8,16 @@
 }
 
 .Logo{
-    width:60px ;
+    width:80px ;
     height: 50px;
     flex:none;
+}
+
+.nome {
+    width: 274px;
+    height: 50px;
+    flex: none;
+    margin-left: 1%;
 }
 
 .topButtonSimple{
@@ -50,7 +57,16 @@
     color:white;
     font-size:50px;
     margin-top: 2%;
+    text-decoration: underline;
+    position: relative;
+    transform: translateX(0);
+    transition: 1s all ease;
 }
+
+#TITULO.active{
+    transform: translateX(200px);
+}
+
 #Terra{
     color:green;
     text-align: center;
@@ -66,20 +82,22 @@
 .informacoes{
     margin:2% 2% 2% 2%;
     text-align:justify;
-    color:black;
+    color:white;
     font-size:24px;
 }
 .box{
-    background-image:url("../images/background_DE_texto.jpg");
+    /*background-image:url("../images/background_DE_texto.jpg");*/
     margin-top:0.5%;
     width:1200px;
     margin-left:650px;
     border:3px solid green;
+    border-radius: 20px;
+    background-color: black;
 }
 #Estrutura_Da_Terra1{
     position: absolute;
     width:500px ;
-    height: 250px;
+    height: 300px;
     margin-left:4%;
     margin-top:1%;
     border:3px solid darkblue;
@@ -89,6 +107,7 @@
     margin-top:14.5%;
     color:white;
     font-size:18px;
+    border-radius: 10px;
 }
 #Estrutura_Da_Terra2{
     position: absolute;
@@ -103,4 +122,9 @@
     margin-top:14.5%;
     color:white;
     font-size:18px;
+    border-radius: 10px;
+}
+
+.background {
+    position: fixed;
 }
