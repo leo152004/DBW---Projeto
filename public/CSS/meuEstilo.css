@@ -2,7 +2,7 @@
     background-color: darkblue;
     border-radius: 0px 0px 30px 30px;
     padding: 20px;
-    width: 100%;
+    width: auto;
     overflow:hidden;
     text-align: right;
 }
@@ -31,13 +31,13 @@
 }
 
 .topButton {
-
     margin-left: 10px;
     text-align: right;
     border-radius: 10px;
     border: 2px solid white;
     padding: 10px;
     color: white;
+    font-size: 30px;
     transition: ease-in-out 0.5s;
     margin-top: 20px;
 }
@@ -47,23 +47,36 @@
     color: yellow;
     border: 2px solid yellow;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 #TITULO{
     margin-left:1%;
     text-align: left;
     color:white;
-    font-size:50px;
+    font-size:100px;
     margin-top: 2%;
     text-decoration: underline;
     position: relative;
-    transform: translateX(0);
-    transition: 1s all ease;
+}
+
+#subtitulo{
+    margin-left:1%;
+    text-align: left;
+    color:white;
+    font-size:50px;
+    position:relative;
 }
 
 #TITULO.active{
     transform: translateX(200px);
+}
+
+.text {
+    color:white;
+    font-size:20px;
+    margin-left:1%;
+    position:relative;
 }
 
 .CoisaEspacial {
