@@ -6,7 +6,9 @@
     overflow:hidden;
     text-align: right;
 }
-
+body {
+    background-image:url("../images/backspace.jpg") ;
+}
 #Logo{
     width:80px ;
     flex:none;
@@ -20,6 +22,7 @@
 }
 
 .topButtonSimple{
+    text-decoration: none;
     color: white;
     transition: ease-in-out 0.5s;
     margin-top: 20px;
@@ -31,6 +34,7 @@
 }
 
 .topButton {
+    text-decoration: none;
     margin-left: 10px;
     text-align: right;
     border-radius: 10px;
@@ -80,7 +84,7 @@
 }
 
 .CoisaEspacial {
-    padding-top: 50px;
+    margin-top:2%;
 }
 
 #Terra{
@@ -108,9 +112,14 @@
     width: 600px;
     height:600px ;
     margin-left:1%;
-    margin-top: 50px;
+    margin-top: 2%;
 }
-
+#VenusBox{
+    margin-top:2% ;
+}
+#Venus{
+    margin-top: 10%;
+}
 .informacoes{
     margin:2% 2% 2% 2%;
     text-align:justify;
@@ -134,7 +143,7 @@
 #StarBox{
     border:3px solid yellow
 }
-#Estrutura_Da_Terra1{
+.Estrutura_Da_Terra1{
     position: absolute;
     width:500px ;
     height: 300px;
@@ -142,31 +151,47 @@
     margin-top:1%;
     border:3px solid darkblue;
 }
-#label1{
-    margin-left:12%;
+.label1{
+    position: absolute;
     margin-top:17%;
+    margin-left:14%;
     color:white;
     font-size:18px;
     border-radius: 10px;
 }
 
-#Estrutura_Da_Terra2{
-    position: absolute;
+.Estrutura_Da_Terra2{
     width:500px ;
     height: 300px;
-    margin-left:13%;
+    margin-left: 36% ;
     margin-top:1%;
     border:3px solid darkblue;
 }
-
-#label2{
-    margin-left:22%;
-    margin-top:14.5%;
+.label2{
+    text-align: center;
+    margin-left:45%;
+    margin-top:17.5%;
     color:white;
     font-size:18px;
-    border-radius: 10px;
 }
-
+.Estrutura_De_Venus1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid darkred;
+}
+.Estrutura_De_Venus2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid darkred;
+}
+#Venus{
+    margin-top:3% ;
+}
 .background {
     position: fixed;
 }
