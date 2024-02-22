@@ -1,0 +1,31 @@
+.CoisaEspacial {
+    margin-top:2%;
+}
+.Planeta{
+    width: 600px;
+    height:600px ;
+    margin-left:1%;
+    margin-top: 2%;
+}
+#Star {
+    color:yellow;
+    text-align: center;
+    font-size: 50px ;
+    font-style: italic;
+}
+.informacoes{
+    margin:2% 2% 2% 2%;
+    text-align:justify;
+    color:white;
+    font-size:24px;
+}
+.box{
+    margin-top:0.5%;
+    width:1200px;
+    margin-left:650px;
+    border-radius: 20px;
+    background-color: black;
+}
+#StarBox{
+    border:3px solid yellow
+}
