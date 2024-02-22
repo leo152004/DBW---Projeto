@@ -3,9 +3,19 @@
     border-radius: 0px 0px 30px 30px;
     padding: 20px;
     width: auto;
-    overflow:hidden;
     text-align: right;
+    position: relative;
 }
+
+.navigation a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 body {
     background-image:url("../images/backspace.jpg") ;
 }
@@ -195,3 +205,42 @@ body {
 .background {
     position: fixed;
 }
+
+.buttonDrop {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.menu {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    left: 0;
+}
+
+.buttonDrops {
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 200;
+    top: 100%;
+    left: 0;
+}
+
+.buttonDrops a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: ease-in-out 0.5s;
+}
+
+.buttonDrops a:hover {background-color: blue;}
+
+.menu:hover .buttonDrops {display: block;}
+
+.menu:hover .buttonDrop {background-color: blue;}
