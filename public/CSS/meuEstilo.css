@@ -1,238 +1,42 @@
-.navigation {
-    background-color: darkblue;
-    border-radius: 0px 0px 30px 30px;
-    padding: 20px;
-    width: auto;
-    text-align: right;
-    position: relative;
-}
-
-.navigation a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-body {
-    background-image:url("../images/backspace.jpg") ;
-}
-#Logo{
-    width:80px ;
-    flex:none;
-}
-
-#nome {
-    width: 274px;
-    flex: none;
-    margin-left: 1%;
-    transition: ease-in-out 1s;
-}
-
-.topButtonSimple{
-    text-decoration: none;
-    color: white;
-    transition: ease-in-out 0.5s;
-    margin-top: 20px;
-}
-
-.topButtonSimple:hover{
-    color: yellow;
-    text-decoration: none;
-}
-
-.topButton {
-    text-decoration: none;
-    margin-left: 10px;
-    text-align: right;
-    border-radius: 10px;
-    border: 2px solid white;
-    padding: 10px;
-    color: white;
-    font-size: 30px;
-    transition: ease-in-out 0.5s;
-    margin-top: 20px;
-}
-
-.topButton:hover {
-    border-radius: 25px;
-    color: yellow;
-    border: 2px solid yellow;
-    text-decoration: none;
-    font-size: 35px;
-}
-
 #TITULO{
     margin-left:1%;
     text-align: left;
-    color:white;
     font-size:100px;
     margin-top: 2%;
     text-decoration: underline;
     position: relative;
+    background-image: linear-gradient(to bottom, blue, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color:black;
 }
 
-#TITULO.active{
-    transform: translateX(200px);
-}
-
-.text {
-    color:white;
-    font-size:20px;
+#subtitulo{
     margin-left:1%;
+    text-align: center;
+    color:white;
+    margin-top: 3%;
+    font-style: italic;
+    font-size:50px;
     position:relative;
 }
-
-.CoisaEspacial {
-    margin-top:2%;
-}
-
-#Terra{
-    color:green;
-    text-align: center;
-    font-size: 50px ;
-    font-style: italic;
-}
-
-#Venus{
-    color:darkred;
-    text-align: center;
-    font-size: 50px ;
-    font-style: italic;
-}
-
-#Star {
-    color:yellow;
-    text-align: center;
-    font-size: 50px ;
-    font-style: italic;
-}
-
-.Planeta{
-    width: 600px;
-    height:600px ;
-    margin-left:1%;
-    margin-top: 2%;
-}
-#VenusBox{
-    margin-top:2% ;
-}
-#Venus{
-    margin-top: 10%;
-}
-.informacoes{
-    margin:2% 2% 2% 2%;
-    text-align:justify;
+#Objetivos{
+    margin-left: 10%;
     color:white;
-    font-size:24px;
-}
-.box{
-    margin-top:0.5%;
-    width:1200px;
-    margin-left:650px;
-    border-radius: 20px;
-    background-color: black;
-}
-
-#TerraBox{
-    border:3px solid green;
-}
-#VenusBox{
-    border:3px solid darkred;
-}
-#StarBox{
-    border:3px solid yellow
-}
-.Estrutura_Da_Terra1{
-    position: absolute;
-    width:500px ;
-    height: 300px;
-    margin-left:5%;
-    margin-top:1%;
-    border:3px solid darkblue;
-}
-.label1{
-    position: absolute;
-    margin-top:17%;
-    margin-left:14%;
-    color:white;
-    font-size:18px;
-    border-radius: 10px;
-}
-
-.Estrutura_Da_Terra2{
-    width:500px ;
-    height: 300px;
-    margin-left: 36% ;
-    margin-top:1%;
-    border:3px solid darkblue;
-}
-.label2{
-    text-align: center;
-    margin-left:45%;
-    margin-top:17.5%;
-    color:white;
-    font-size:18px;
-}
-.Estrutura_De_Venus1{
-    position: absolute;
-    width:500px ;
-    height: 300px;
-    margin-left:5%;
-    margin-top:1%;
-    border:3px solid darkred;
-}
-.Estrutura_De_Venus2{
-    width:500px ;
-    height: 300px;
-    margin-left: 36% ;
-    margin-top:1%;
-    border:3px solid darkred;
-}
-#Venus{
-    margin-top:3% ;
-}
-.background {
-    position: fixed;
-}
-
-.buttonDrop {
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-}
-
-.menu {
     text-align: left;
-    position: relative;
-    display: inline-block;
-    left: 0;
+    font-size:36px;
+    font-style: italic;
 }
-
-.buttonDrops {
-    display: none;
-    position: absolute;
-    background-color: darkblue;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px black;
-    z-index: 200;
-    top: 100%;
-    left: 0;
+.objetivos{
+    margin-left: 11%;
+    color:white;
+    font-size:32px;
+    text-align: left;
+    font-style: italic;
 }
-
-.buttonDrops a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    transition: ease-in-out 0.5s;
+#galaxia{
+    margin-right:5%;
+    margin-bottom: 5%;
 }
-
-.buttonDrops a:hover {background-color: blue;}
-
-.menu:hover .buttonDrops {display: block;}
-
-.menu:hover .buttonDrop {background-color: blue;}

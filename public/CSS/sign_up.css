@@ -37,13 +37,30 @@ button:hover{
     background-color: #6ed0e7;
     cursor: pointer;
 }
-a{
+#Criada{
     text-decoration: none;
     color:white;
     text-align: justify;
 }
-a:hover{
+#Criada:hover{
     color:lightblue;
     cursor:pointer;
     text-decoration:lightblue ;
+}
+#Conta {
+    text-decoration: none;
+    text-align: right;
+    width:100% ;
+    margin-left:12.5%;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#Conta:hover {
+    border-radius: 25px;
+    transition:0.5s;
+
 }

@@ -21,20 +21,21 @@ input{
     outline: none;
     font-size:15px;
 }
-button{
-    background-color: lightblue;
-    border-radius: 5px;
-    width: 100%;
-    padding: 15px;
-    font-size: 15px;
-    color:white;
-    border:none;
-    transition: ease-in-out 0.5s;
-
+#Conta {
+    text-decoration: none;
+    text-align: right;
+    margin-left:27%;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
 }
-button:hover{
-    background-color: #6ed0e7;
-    cursor: pointer;
+
+#Conta:hover {
+    border-radius: 25px;
+    transition:0.5s;
+
 }
 a{
     text-decoration: none;
