@@ -74,14 +74,6 @@ body {
     position: relative;
 }
 
-#subtitulo{
-    margin-left:1%;
-    text-align: left;
-    color:white;
-    font-size:50px;
-    position:relative;
-}
-
 #TITULO.active{
     transform: translateX(200px);
 }
