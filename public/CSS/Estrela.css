@@ -72,3 +72,31 @@
     color:white;
     font-size:18px;
 }
+
+#Estrela_Neutroes {
+    color:lightskyblue;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+}
+#NeutroesBox{
+    border:3px solid lightskyblue;
+}
+.Estrutura_Da_Neutroes{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:9%;
+    margin-top:1%;
+    border:3px solid lightskyblue;
+}
+.Estrutura_Da_Neutroes2{
+    width:500px ;
+    height: 300px;
+    margin-left: 39% ;
+    margin-top:1%;
+    border:3px solid lightskyblue;
+}
+#Label1_Neutroes{
+    margin-left:17%;
+}

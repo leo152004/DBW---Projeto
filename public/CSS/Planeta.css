@@ -128,8 +128,115 @@
     margin-top:1%;
     border:3px solid #815e4f;
 }
-
-
+#Label2_Saturno{
+    margin-left:77%;
+}
+#Saturno{
+    color: yellow;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#SaturnoBox{
+    border:3px solid yellow;
+}
+.Estrutura_De_Saturno1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid yellow;
+}
+.Estrutura_De_Saturno2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid yellow;
+}
+#Kepler-22b{
+    color: darkolivegreen;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#KeplerBox{
+    border:3px solid darkolivegreen;
+}
+.Estrutura_De_Kepler1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid darkolivegreen;
+}
+.Estrutura_De_Kepler2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid darkolivegreen;
+}
+#Label2_Kepler{
+    margin-left:77%;
+}
+#J1407b{
+    color: #bb694f;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#J1407bBox{
+    border:3px solid #bb694f;
+}
+.Estrutura_De_J1407b1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid #bb694f;
+}
+.Estrutura_De_J1407b2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid #bb694f;
+}
+#Planeta_Interstelar{
+    color: darkslategrey;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#InterstelarBox{
+    border:3px solid darkslategrey;
+}
+.Estrutura_De_Interstelar1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid darkslategrey;
+}
+.Estrutura_De_Interstelar2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid darkslategrey;
+}
+#Planeta_Interstelar2{
+    margin-left:77%;
+}
 .background {
     position: fixed;
 }
