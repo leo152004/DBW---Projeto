@@ -1,0 +1,160 @@
+#TITULO{
+    text-align: center;
+    font-size:100px;
+    margin-top: 2%;
+    text-decoration: underline;
+    background-image: linear-gradient(to bottom, purple, mediumpurple, rebeccapurple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+}
+.CoisaEspacial {
+    margin-top:5%;
+}
+#Unicornio{
+    color:purple;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top: 2%;
+}
+.Planeta{
+    width: 600px;
+    height:600px ;
+    margin-left:1%;
+    margin-top: 2%;
+}
+.imagem{
+    width: 550px;
+    height: 540px;
+}
+.informacoes{
+    margin:2% 2% 2% 2%;
+    text-align:justify;
+    color:white;
+    font-size:24px;
+}
+.box{
+    margin-top:0.5%;
+    width:1200px;
+    margin-left:650px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+#UniBox{
+    border:3px solid purple;
+}
+.Estrutura_Da_Uni1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:9%;
+    margin-top:1%;
+    border:3px solid purple;
+}
+.label1{
+    position: absolute;
+    margin-top:17%;
+    text-align: center;
+    margin-left:17%;
+    color:white;
+    font-size:18px;
+    border-radius: 10px;
+}
+
+
+.Estrutura_Da_Uni2{
+    width:500px ;
+    height: 300px;
+    margin-left: 39% ;
+    margin-top:1%;
+    border:3px solid purple;
+}
+.label2{
+    text-align: center;
+    margin-left:76%;
+    margin-top:17.5%;
+    color:white;
+    font-size:18px;
+}
+#Quasar{
+    color:lightblue;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top: 2%;
+}
+#QuasarBox{
+    border:3px solid lightblue;
+}
+.Estrutura_Da_Quasar1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:9%;
+    margin-top:1%;
+    border:3px solid lightblue;
+}
+
+.Estrutura_Da_Quasar2{
+    width:500px ;
+    height: 300px;
+    margin-left: 39% ;
+    margin-top:1%;
+    border:3px solid lightblue;
+}
+#Galaxias{
+    color: #ec2cec;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top: 2%;
+}
+#GalaxiaBox{
+    border:3px solid #ec2cec;
+}
+.Estrutura_Da_Gal1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:9%;
+    margin-top:1%;
+    border:3px solid #ec2cec;
+}
+
+.Estrutura_Da_Gal2{
+    width:500px ;
+    height: 300px;
+    margin-left: 39% ;
+    margin-top:1%;
+    border:3px solid #ec2cec;
+}
+
+#Universo{
+    color: #0181dc;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top: 2%;
+}
+#UniversoBox{
+    border:3px solid #0181dc;
+}
+.Estrutura_Da_Universo1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:9%;
+    margin-top:1%;
+    border:3px solid #0181dc;
+}
+
+.Estrutura_Da_Universo2{
+    width:500px ;
+    height: 300px;
+    margin-left: 39% ;
+    margin-top:1%;
+    border:3px solid #0181dc;
+}
