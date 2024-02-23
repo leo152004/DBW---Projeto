@@ -1,4 +1,14 @@
-
+#TITULO{
+    text-align: center;
+    font-size:100px;
+    margin-top: 2%;
+    text-decoration: underline;
+    background-image: linear-gradient(to bottom, green, greenyellow, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+}
 .CoisaEspacial {
     margin-top:2%;
 }
@@ -6,28 +16,15 @@
 #Terra{
     color:green;
     text-align: center;
-    font-size: 50px ;
+    font-size: 70px ;
     font-style: italic;
+    margin-top: 2%;
 }
-
-#Venus{
-    color:darkred;
-    text-align: center;
-    font-size: 50px ;
-    font-style: italic;
-}
-
 .Planeta{
     width: 600px;
     height:600px ;
     margin-left:1%;
     margin-top: 2%;
-}
-#VenusBox{
-    margin-top:2% ;
-}
-#Venus{
-    margin-top: 10%;
 }
 .informacoes{
     margin:2% 2% 2% 2%;
@@ -45,9 +42,7 @@
 
 #TerraBox{
     border:3px solid green;
-}
-#VenusBox{
-    border:3px solid darkred;
+    margin-top:2% ;
 }
 #StarBox{
     border:3px solid yellow
@@ -58,7 +53,7 @@
     height: 300px;
     margin-left:5%;
     margin-top:1%;
-    border:3px solid darkblue;
+    border:3px solid green;
 }
 .label1{
     position: absolute;
@@ -74,7 +69,7 @@
     height: 300px;
     margin-left: 36% ;
     margin-top:1%;
-    border:3px solid darkblue;
+    border:3px solid green;
 }
 .label2{
     text-align: center;
@@ -82,6 +77,16 @@
     margin-top:17.5%;
     color:white;
     font-size:18px;
+}
+#Venus{
+    color:darkred;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
+    margin-top:3% ;
+}
+#VenusBox{
+    border:3px solid darkred;
 }
 .Estrutura_De_Venus1{
     position: absolute;
@@ -98,9 +103,33 @@
     margin-top:1%;
     border:3px solid darkred;
 }
-#Venus{
+#Mercurio{
+    color: #815e4f;
+    text-align: center;
+    font-size: 70px ;
+    font-style: italic;
     margin-top:3% ;
 }
+#MercurioBox{
+    border:3px solid #815e4f;
+}
+.Estrutura_De_Mercurio1{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid #815e4f;
+}
+.Estrutura_De_Mercurio2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid #815e4f;
+}
+
+
 .background {
     position: fixed;
 }

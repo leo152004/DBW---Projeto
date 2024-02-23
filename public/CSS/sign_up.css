@@ -1,3 +1,13 @@
+#Logo{
+    width:40px ;
+    flex:none;
+}
+#nome {
+    width: 150px;
+    flex: none;
+    margin-left: 1%;
+    transition: ease-in-out 1s;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(45deg,darkblue,cyan);
@@ -9,7 +19,7 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    padding:100px;
+    padding:75px;
     border-radius: 20px;
     color:white;
 

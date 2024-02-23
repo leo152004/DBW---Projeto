@@ -54,19 +54,6 @@ body {
     text-decoration: none;
     font-size: 35px;
 }
-#TITULO{
-    margin-left:1%;
-    text-align: left;
-    color:white;
-    font-size:100px;
-    margin-top: 2%;
-    text-decoration: underline;
-    position: relative;
-}
-
-#TITULO.active{
-    transform: translateX(200px);
-}
 
 .text {
     color:white;

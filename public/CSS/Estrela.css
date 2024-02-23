@@ -1,3 +1,14 @@
+#TITULO{
+    text-align: center;
+    font-size:100px;
+    margin-top: 2%;
+    text-decoration: underline;
+    background-image: linear-gradient(to bottom, red, orange, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+}
 .CoisaEspacial {
     margin-top:2%;
 }
@@ -8,9 +19,9 @@
     margin-top: 2%;
 }
 #Star {
-    color:yellow;
+    color:orange;
     text-align: center;
-    font-size: 50px ;
+    font-size: 70px ;
     font-style: italic;
 }
 .informacoes{
@@ -27,5 +38,36 @@
     background-color: black;
 }
 #StarBox{
-    border:3px solid yellow
+    border:3px solid orange;
+}
+.Estrutura_Da_Sol{
+    position: absolute;
+    width:500px ;
+    height: 300px;
+    margin-left:5%;
+    margin-top:1%;
+    border:3px solid orange;
+}
+.label1{
+    position: absolute;
+    margin-top:17%;
+    margin-left:14%;
+    color:white;
+    font-size:18px;
+    border-radius: 10px;
+}
+
+.Estrutura_Da_Sol2{
+    width:500px ;
+    height: 300px;
+    margin-left: 36% ;
+    margin-top:1%;
+    border:3px solid orange;
+}
+.label2{
+    text-align: center;
+    margin-left:45%;
+    margin-top:17.5%;
+    color:white;
+    font-size:18px;
 }
