@@ -1,3 +1,6 @@
+#Soupy_Division{
+    padding-bottom: 20px ;
+}
 #Logo{
     width:40px ;
     flex:none;
@@ -38,13 +41,16 @@ input{
     border: 2px solid white;
     color: white;
     font-size: 30px;
-    margin-top: 20px;
+    border-radius: 10px;
 }
 
 #Conta:hover {
     border-radius: 25px;
     transition:0.5s;
 
+}
+#Conta2{
+    margin-top: 5%;
 }
 a{
     text-decoration: none;
