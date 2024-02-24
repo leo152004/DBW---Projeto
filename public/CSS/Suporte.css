@@ -1,0 +1,57 @@
+#TITULO {
+    text-align: center;
+    font-size:150px;
+    margin-top: 2%;
+    text-decoration: underline;
+    background-image: linear-gradient(to top, darkblue, blue, dodgerblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+    margin-bottom: 30px;
+}
+
+#texto {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+.Boxes{
+    background-image: linear-gradient(45deg,darkblue,blue);
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:75px;
+    border-radius: 20px;
+    color:white;
+}
+
+input{
+    padding: 20px;
+    border:none;
+    border-radius: 5px ;
+    outline: none;
+    font-size:15px;
+    text-align: center;
+}
+
+#button {
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    background-color: blue;
+    font-size: 15px;
+    padding: 20px;
+    margin-left: 70px;
+    border: black;
+    border-radius: 20px;
+}
+
+#button:hover {
+    color:lightblue;
+    cursor:pointer;
+    text-decoration:lightblue ;
+}
+
+

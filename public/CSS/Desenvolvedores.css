@@ -1,0 +1,26 @@
+#TITULO {
+    text-align: center;
+    font-size:150px;
+    margin-top: 2%;
+    text-decoration: underline;
+    background-image: linear-gradient(to top, darkblue, blue, dodgerblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+}
+
+#subtitulo {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+    color: white;
+    text-decoration: underline;
+}
+
+#desenvolvedores {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1%;
+    color: white;
+}
