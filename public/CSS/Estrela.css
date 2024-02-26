@@ -50,7 +50,7 @@
 }
 .label1{
     position: absolute;
-    margin-top:17%;
+    margin-top:18%;
     text-align: center;
     margin-left:20%;
     color:white;
@@ -68,7 +68,7 @@
 .label2{
     text-align: center;
     margin-left:76%;
-    margin-top:17.5%;
+    margin-top:18%;
     color:white;
     font-size:18px;
 }
@@ -170,17 +170,31 @@
         margin:0;
         padding: 0;
     }
+
+    .informacoes {
+        font-size: 50px;
+    }
+
     .imagens{
         display: none;
     }
+
     .imagem{
         alignment-baseline: top;
-        display:none;
+        display:block;
+        width: 100%;
+        height: auto;
     }
 
     .box{
         text-align:left;
         margin-left:0;
         width:100%;
+    }
+}
+
+@media only screen and (max-device-width: 1800px) and (min-device-width: 641px){
+    .imagens {
+        display: none;
     }
 }
