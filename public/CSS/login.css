@@ -42,11 +42,12 @@ input{
     color: white;
     font-size: 30px;
     border-radius: 10px;
+    transition:0.5s;
 }
 
 #Conta:hover {
     border-radius: 25px;
-    transition:0.5s;
+
 
 }
 #Conta2{

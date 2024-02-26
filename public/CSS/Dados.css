@@ -15,22 +15,22 @@
     font-size: 35px;
     text-align: center;
     margin-top: 0;
+    color:white;
 }
 
 #button {
     text-decoration: none;
     color:white;
     text-align: center;
-    background-color: blue;
     font-size: 20px;
-    margin-left: 10px;
-    padding: 15px;
-    border: black;
-    border-radius: 20px;
+    background: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    transition: ease-in-out 0.3s;
 }
 
 #button:hover {
-    color:lightblue;
+    background: darkblue;
     cursor:pointer;
-    text-decoration:lightblue ;
 }

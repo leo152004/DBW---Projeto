@@ -5,7 +5,7 @@ body{
 }
 
 .footer{
-
+    position: fixed;
     margin-top: auto;
     left: 0;
     bottom: 0;
