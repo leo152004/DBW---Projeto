@@ -241,11 +241,22 @@
     position: fixed;
 }
 
-@media only screen and (max-width: 540px) {
-    image{
-        width: 100%;
-        height: fit-content;
-        .border:disabled;
+@media only screen and (max-device-width: 640px) and (min-device-width: 350px){
+    body{
+        margin:0;
+        padding: 0;
+    }
+    .imagens{
+        display: none;
+    }
+    .Planeta{
+        alignment-baseline: top;
+        display:none;
+    }
 
+    .box{
+        text-align:left;
+        margin-left:0;
+        width:100%;
     }
 }

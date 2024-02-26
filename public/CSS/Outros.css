@@ -158,3 +158,23 @@
     margin-top:1%;
     border:3px solid #0181dc;
 }
+@media only screen and (max-device-width: 640px) and (min-device-width: 0px){
+    body{
+        margin:0;
+        padding: 0;
+    }
+    .imagens{
+        display: none;
+    }
+    .imagem{
+        alignment-baseline: top;
+        display:none;
+    }
+
+    .box{
+        text-align:left;
+        margin-left:0;
+        width:100%;
+    }
+}
+
