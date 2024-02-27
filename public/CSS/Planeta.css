@@ -22,7 +22,7 @@
 }
 .Planeta{
     width: 600px;
-    height:600px ;
+    height:auto;
     margin-left:1%;
     margin-top: 2%;
 }
