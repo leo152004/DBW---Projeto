@@ -22,13 +22,13 @@
 }
 .Planeta{
     width: 600px;
-    height:600px ;
+    height:600px;
     margin-left:1%;
     margin-top: 2%;
 }
 .imagem{
     width: 550px;
-    height: 540px;
+    height: auto;
 }
 .informacoes{
     margin:2% 2% 2% 2%;
