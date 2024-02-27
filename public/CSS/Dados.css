@@ -26,6 +26,8 @@
 }
 
 .button {
+
+    overflow: hidden;
     text-decoration: none;
     color:white;
     text-align: center;
@@ -48,7 +50,12 @@
     transition: ease-in-out 0.5s;
     margin-top: 20px;
 }
-
+#utilizador{
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    border:2px solid lightskyblue;
+}
 .Butao:hover {
     border-radius: 25px;
     color: lightskyblue ;
