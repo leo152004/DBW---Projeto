@@ -168,7 +168,13 @@
     }
     .imagem{
         alignment-baseline: top;
-        display:none;
+        display:block;
+        width: 100%;
+        height: auto;
+    }
+
+    .informacoes {
+        font-size: 50px;
     }
 
     .box{

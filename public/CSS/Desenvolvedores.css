@@ -24,3 +24,17 @@
     margin-top: 1%;
     color: white;
 }
+
+@media only screen and (max-device-width: 640px) and (min-device-width: 0px) {
+    #TITULO {
+        font-size: 100px;
+    }
+
+    #subtitulo {
+        font-size: 70px;
+    }
+
+    #desenvolvedores {
+        font-size: 50px;
+    }
+}
