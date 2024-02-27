@@ -10,37 +10,63 @@
     color:black;
     margin-bottom: 30px;
 }
-
-#texto {
+.Obrigatorio{
+    margin-left:25%;
+    text-align: left;
+    color:#00ffff;
+    font-style: italic;
+    font-size:20px;
+}
+.texto {
     font-size: 35px;
-    text-align: center;
+    margin-left:25%;
+    text-align: left;
     margin-top: 0;
     color:white;
 }
 
-#button {
+.button {
     text-decoration: none;
     color:white;
     text-align: center;
-    font-size: 20px;
+    font-size: 35px;
     background: blue;
     border: none;
     padding: 10px;
     border-radius: 15px;
     transition: ease-in-out 0.3s;
 }
+.Butao {
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: right;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    transition: ease-in-out 0.5s;
+    margin-top: 20px;
+}
 
-#button:hover {
+.Butao:hover {
+    border-radius: 25px;
+    color: lightskyblue ;
+    border: 2px solid lightskyblue;
+    text-decoration: none;
+}
+
+.button:hover {
     background: darkblue;
     cursor:pointer;
 }
 
 @media only screen and (max-device-width: 640px) and (min-device-width: 0px){
-    #texto {
+    .texto {
         font-size: 50px;
     }
 
-    #button{
+    .button{
         font-size: 50px;
     }
 }
