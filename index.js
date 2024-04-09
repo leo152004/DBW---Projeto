@@ -19,6 +19,22 @@ app.use(SpaceRoute);
 
 const PlanetasRoute = require("./routes/PlanetasRoute");
 app.use(PlanetasRoute);
+
+const EstrelasRoute = require("./routes/EstrelasRoute");
+app.use(EstrelasRoute);
+
+const OutrosRoute = require("./routes/OutrosRoute");
+app.use(OutrosRoute);
+
+const SuporteRoute = require("./routes/SuporteRoute");
+app.use(SuporteRoute);
+
+const DesenvolvedoresRoute = require("./routes/DesenvolvedoresRoute");
+app.use(DesenvolvedoresRoute);
+
+const DadosRoute = require("./routes/DadosRoute");
+app.use(DadosRoute);
+
 app.listen(3000, function (err) {
     if (err) console.log(err);
     console.log("Server listening on PORT", 3000);
