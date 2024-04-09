@@ -17,6 +17,8 @@ app.use(signupRoute);
 const SpaceRoute = require("./routes/SpaceSoupThingsRoute");
 app.use(SpaceRoute);
 
+const PlanetasRoute = require("./routes/PlanetasRoute");
+app.use(PlanetasRoute);
 app.listen(3000, function (err) {
     if (err) console.log(err);
     console.log("Server listening on PORT", 3000);
