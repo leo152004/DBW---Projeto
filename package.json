@@ -12,6 +12,8 @@
     "ejs": "^3.1.9",
     "epress": "^0.0.1-security",
     "express": "^4.19.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.3.1",
     "nodemon": "^3.1.0"
   }
 }
