@@ -44,22 +44,28 @@
     </div>
 </header>
 <h1 id="TITULO">Suporte</h1>
-<p id="texto">Caso tenha encontrado algum problema com o site, ou caso tenha alguma dúvida, pode nos informar, introduzindo o seu email e posteriormente a sua dúvida nas caixas de texto abaixo:</p>
+<p id="texto">Caso tenha encontrado algum problema com o site, ou caso tenha alguma dúvida, pode nos informar, introduzindo o Assunto e posteriormente a sua dúvida nas caixas de texto abaixo:</p>
 <div class="Boxes">
     <label>
-        <input type="text" placeholder="Email">
+        <input type="text" class="suporte" placeholder="O seu Nome">
     </label>
     <br><br>
     <label>
-        <input type="text" placeholder="Indique o problema">
+        <input type="text" class="suporte" placeholder="Indique aqui o Assunto">
     </label>
     <br><br>
-    <button id="button" >Send</button>
+    <label>
+        <textarea type="text" class="suporte" name="problema/dúvidas" rows="4" cols="50" placeholder="Problemas/Dúvidas"></textarea>
+    </label>
+</div>
+<div>
+    <button id="button" >Submeter</button>
 </div>
 <div class="footer">
     <footer>
         <p>&copy; 2024 - Universidade da Madeira</p>
     </footer>
 </div>
+<script src="./JS/suporte.js"></script>
 </body>
 </html>

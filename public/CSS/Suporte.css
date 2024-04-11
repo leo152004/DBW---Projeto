@@ -18,16 +18,34 @@
     margin-top: 0;
 }
 .Boxes{
+    margin-top: 5%;
     background-image: linear-gradient(45deg,darkblue,blue);
     position: absolute;
     top: 60%;
     left:50%;
     transform: translate(-50%,-50%);
-    padding:75px;
+    padding:30px;
     border-radius: 20px;
     color:white;
 }
+.comentario{
+    color:white;
+    border:2px solid yellowgreen;
+    background-color: blue;
+    position: absolute;
+    padding: 10px;
+    margin-top: 30%;
+    margin-left: 37%;
+    border-radius: 2px;
+}
 
+.suporte{
+    margin-left: 5% ;
+    position: relative;
+    text-size-adjust: auto;
+    padding: 20px;
+    width: 80%;
+}
 input{
     padding: 20px;
     border:none;
@@ -36,19 +54,20 @@ input{
     font-size:15px;
     text-align: center;
 }
-
 #button {
     text-decoration: none;
-    color:white;
+    color: white;
+    position: absolute;
     text-align: center;
     background-color: blue;
-    font-size: 15px;
-    padding: 20px;
-    margin-left: 70px;
+    font-size: 20px;
+    margin-left: 40%;
+    padding: 10px;
+    margin-top: 24%;
+    width: 20%;
     border: black;
     border-radius: 20px;
 }
-
 #button:hover {
     color:lightblue;
     cursor:pointer;
