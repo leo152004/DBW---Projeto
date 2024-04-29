@@ -1,5 +1,7 @@
 "use strict"
 console.log("Conectado!")
+
+
 let listaELementos = Array.from(document.getElementsByClassName('suporte'));
 let botaoSub = document.getElementById('button');
 let arr = [];
@@ -26,13 +28,12 @@ function adicionaHTML(listaELementos) {
   <p>${listaELementos[2].value}</p>
  </div>`;
     botaoSub.insertAdjacentHTML('afterend', html);
-
 }
 
 function verificaUserInput() {
     for (let i = 0; i < listaELementos.length; i++) {
         if (listaELementos[i].value === "") {
-            mudaCorInput(listaELementos, i, "LightCoral");
+            mudaCorInput(listaELementos, i, "LightBlue");
             podeAdicionar = false;
             arr.push(podeAdicionar);
         } else {
