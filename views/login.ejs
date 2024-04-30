@@ -8,26 +8,28 @@
 </head>
 <body>
     <div class="login">
-        <div id="Soupy_Division">
-            <img align="left" id = "Logo" src="./images/Space%20Soup.png" alt="Soupy-Logo">
-            <img align="left" id = "nome" src="./images/preview.png" alt="Soupy-Logo">
-        </div>
-        <h1>Login</h1>
-        <label>
-            <input type="text" placeholder="Nome" required>
-        </label>
-        <br><br>
-        <label>
-            <input type="password" placeholder="Palavra-Passe" required>
-        </label>
-        <br><br>
-        <div id="Conta2">
-            <a id="Conta" href="SpaceSoupThings">
-                Entrar
-            </a>
-        </div>
-        <br>
-        <a href="signup">Sign Up</a>
+        <form action="/login" method="post">
+            <div id="Soupy_Division">
+                <img align="left" id = "Logo" src="./images/Space%20Soup.png" alt="Soupy-Logo">
+                <img align="left" id = "nome" src="./images/preview.png" alt="Soupy-Logo">
+            </div>
+            <h1>Login</h1>
+            <label>
+                <input type="text" class="form-control" name="username" placeholder="Nome" required>
+            </label>
+            <br><br>
+            <label>
+                <input type="password" class="form-control" name="password" placeholder="Palavra-Passe" required>
+            </label>
+            <br><br>
+            <div id="Conta2">
+                <button id="Conta" type="submit">
+                    Entrar
+                </button>
+            </div>
+            <br>
+            <a href="signup">Sign Up</a>
+        </form>
     </div>
     <div class="footer">
         <footer>

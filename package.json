@@ -9,6 +9,7 @@
   "author": "Francisco Henriques e Leandro Gonçalves",
   "license": "ISC",
   "dependencies": {
+    "all": "^0.0.0",
     "ejs": "^3.1.9",
     "epress": "^0.0.1-security",
     "express": "^4.19.2",

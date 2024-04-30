@@ -18,9 +18,9 @@ mongoose.connect('mongodb+srv://franciscoadelino756:FrA31019@francisco3222.beafz
 
 // Passport configuration
 const User = require('./Model/UseModel'); // Assuming you have a User model
-passport.use(new localStrategy (User.authenticate()));
-passport.serializeUser(User.serializeUser());
-passport.deserializeUser(User.deserializeUser());
+
+
+
 
 // Express middleware setup
 app.use(express.static(__dirname + "/public"));
@@ -32,11 +32,16 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
+
+passport.use(new localStrategy(User.authenticate()));
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+
 app.set("view engine", "ejs");
 
 // Routes setup
-const homeRoute = require("./routes/HomeRoute");
-const loginRoute = require("./routes/LoginRoute");
+const PaginaRoute = require("./Routes/PaginaInicialRoute")
+const UserRoute = require('./Routes/userRoute')
 const signupRoute = require("./routes/SignUpRoute");
 const SpaceRoute = require("./routes/SpaceSoupThingsRoute");
 const PlanetasRoute = require("./routes/PlanetasRoute");
@@ -46,8 +51,8 @@ const SuporteRoute = require("./routes/SuporteRoute");
 const DesenvolvedoresRoute = require("./routes/DesenvolvedoresRoute");
 const DadosRoute = require("./routes/DadosRoute");
 
-app.use(homeRoute);
-app.use(loginRoute);
+app.use(PaginaRoute);
+app.use(UserRoute);
 app.use(signupRoute);
 app.use(SpaceRoute);
 app.use(PlanetasRoute);
