@@ -63,3 +63,20 @@ a:hover{
     cursor:pointer;
     text-decoration:lightblue ;
 }
+
+#icon{
+    position: absolute;
+    top:54%;
+    right: 87px;
+    transform: translateY(-50%);
+    background: url('../images/hide.png');
+    background-size:cover ;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#icon.show{
+    background: url('../images/show.png');
+    background-size:cover ;
+}

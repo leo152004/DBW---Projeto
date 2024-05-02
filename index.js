@@ -40,8 +40,9 @@ passport.deserializeUser(User.deserializeUser());
 app.set("view engine", "ejs");
 
 // Routes setup
-const PaginaRoute = require("./Routes/PaginaInicialRoute")
-const UserRoute = require('./Routes/userRoute')
+const MensagemSuporteRoute = require("./Routes/MensagemSuporteRoute");
+const PaginaRoute = require("./Routes/PaginaInicialRoute");
+const UserRoute = require('./Routes/userRoute');
 const signupRoute = require("./routes/SignUpRoute");
 const SpaceRoute = require("./routes/SpaceSoupThingsRoute");
 const PlanetasRoute = require("./routes/PlanetasRoute");
@@ -51,6 +52,7 @@ const SuporteRoute = require("./routes/SuporteRoute");
 const DesenvolvedoresRoute = require("./routes/DesenvolvedoresRoute");
 const DadosRoute = require("./routes/DadosRoute");
 
+app.use(MensagemSuporteRoute);
 app.use(PaginaRoute);
 app.use(UserRoute);
 app.use(signupRoute);

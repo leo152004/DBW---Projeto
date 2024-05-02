@@ -13,16 +13,19 @@
 
 #texto {
     color:white;
-    font-size: 20px;
+
+    font-size: 30px;
     text-align: center;
     margin-top: 0;
 }
 .Boxes{
+    border:1px solid white;
     margin-top: 5%;
     background-image: linear-gradient(45deg,darkblue,blue);
     position: absolute;
     top: 60%;
     left:50%;
+    width: 50%;
     transform: translate(-50%,-50%);
     padding:30px;
     border-radius: 20px;
@@ -40,32 +43,34 @@
 }
 
 .suporte{
-    margin-left: 5% ;
+    margin-left: 5%;
+    border:0;
+    outline: none;
+    font-size: 15px;
     position: relative;
     text-size-adjust: auto;
     padding: 20px;
     width: 80%;
 }
+
 input{
     padding: 20px;
     border:none;
     border-radius: 5px ;
     outline: none;
     font-size:15px;
-    text-align: center;
 }
+
 #button {
+    margin-left: 40%;
     text-decoration: none;
     color: white;
-    position: absolute;
     text-align: center;
     background-color: blue;
     font-size: 20px;
-    margin-left: 40%;
     padding: 10px;
-    margin-top: 24%;
+    margin-top: 2%;
     width: 20%;
-    border: black;
     border-radius: 20px;
 }
 #button:hover {
@@ -73,7 +78,12 @@ input{
     cursor:pointer;
     text-decoration:lightblue ;
 }
-
+form input:focus{
+    border-radius: 16px;
+}
+form textarea:focus{
+    border-radius: 16px;
+}
 @media only screen and (max-device-width: 640px) and (min-device-width: 0px){
     #texto {
         font-size:50px;
@@ -87,7 +97,7 @@ input{
     }
 
     .Boxes {
-        width: 60%;
+        width: 100%;
         height: 400px;
     }
 
