@@ -2,8 +2,8 @@ import OpenAI from "openai";
 
 const openai = new OpenAI();
 
-let topic;
-
+import { topic } from "./Planetas.js";
+export {main};
 async function main() {
     const completion = await openai.chat.completions.create({
         messages: [
@@ -19,4 +19,4 @@ async function main() {
     console.log(completion.choices[0].message.content);
 }
 
-main();
+module.exports = main;
