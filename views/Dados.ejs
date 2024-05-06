@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Dados Pessoais - Space Soup</title>
@@ -44,30 +44,41 @@
     </div>
 </header>
 
-<div>
-    <h1 id="TITULO">Dados Pessoais</h1>
+<div class="container-fluid">
     <div>
-        <p class="Obrigatorio"><Strong>*Dados Obrigatórios</Strong></p>
-        <p class="texto">
-            <Strong>Nome:</Strong> *Nome de Utilizador*<br><br>
-            <Strong>Email:</Strong> *Email do Utilizador*<br><br>
-            <Strong>Password:</Strong> *************** <button id="ButaoPass">Mudar Password</button><br><br>
-        </p>
+    <h1 id="TITULO">Dados Pessoais</h1>
+    <div class="row">
+        <section class="col-lg-6">
+            <div id="ImagemContainer">
+                <img src="./images/utilizador.png" id="display">
+                <label class="ButaoImg" for="input-file">Adicionar Imagem</label>
+                <input  type="file" accept="image/png, image/jpg, image/jpeg" name="Adicionar Imagem" id="input-file">
+            </div>
+        </section>
+        <section class="col-lg-6">
+            <div id="Dados">
+                <p class="Obrigatorio"><Strong>*Dados Obrigatórios</Strong></p>
+                <p class="texto">
+                    <Strong>Nome:</Strong> *Nome de Utilizador*<br><br>
+                    <Strong>Email:</Strong> *Email do Utilizador*<br><br>
+                    <Strong>Password:</Strong> *************** <button id="ButaoPass">Mudar Password</button><br><br>
+                </p>
 
-        <p class="Obrigatorio"><Strong>*Dados Não Obrigatórios</Strong></p>
-        <p class="texto">
-            <Strong>Telemóvel:</Strong> *Telemóvel de Utilizador* <button class="Butao" href="#">Adicionar Telémovel</button> <br><br>
-            <Strong>País:</Strong> *Adicione o seu País*<button class="Butao" href="#">Adicionar País</button><br><br>
-            <img id="utilizador" src="./images/utilizador.png" alt=""><br><br>
-            <button class="Butao" href="#">Adicionar Imagem</button>
-        </p>
+                <p class="Obrigatorio"><Strong>*Dados Não Obrigatórios</Strong></p>
+                <p class="texto">
+                    <Strong>Telemóvel:</Strong> *Telemóvel de Utilizador* <button class="Butao" href="#">Adicionar Telémovel</button> <br><br>
+                    <Strong>País:</Strong> *Adicione o seu País*<button class="Butao" href="#">Adicionar País</button><br><br>
+                </p>
+            </div>
+        </section>
+    </div>
     </div>
 </div>
+    <div class="footer">
+        <footer>
+            <p>&copy; 2024 - Universidade da Madeira</p>
+        </footer>
+    </div>
 <script src="./JS/Dados.js"></script>
-<div class="footer">
-    <footer>
-        <p>&copy; 2024 - Universidade da Madeira</p>
-    </footer>
-</div>
 </body>
 </html>
