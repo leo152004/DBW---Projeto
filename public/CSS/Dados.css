@@ -3,28 +3,42 @@
     font-size:150px;
     margin-top: 2%;
     text-decoration: underline;
-    background-image: linear-gradient(to top, darkblue, blue, dodgerblue);
+    background-image: linear-gradient(to top, cyan, blue, dodgerblue);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color:black;
     margin-bottom: 30px;
 }
+#Dados{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 45%;
+}
 .Obrigatorio{
-    margin-left:25%;
-    text-align: left;
+    text-align: center;
     color:#00ffff;
     font-style: italic;
     font-size:20px;
 }
 .texto {
-    font-size: 35px;
-    margin-left:25%;
+    font-size: 30px;
     text-align: left;
     margin-top: 0;
     color:white;
 }
-
+#display{
+    background-position: center;
+    background-size:cover;
+    width:375px;
+    height:375px;
+    margin-top:7%;
+    position: absolute;
+    margin-left: 15%;
+    border:2px solid white;
+    border-radius: 10px;
+    z-index: 5;
+}
 .button {
 
     overflow: hidden;
@@ -38,6 +52,25 @@
     border-radius: 15px;
     transition: ease-in-out 0.3s;
 }
+#input-file{
+    display: none;
+}
+.ButaoImg{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-top: 28%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color:white;
+    border: 2px solid white;
+    font-size: 20px;
+    transition: ease-in-out 0.5s;
+    z-index: 2;
+
+}
 .Butao {
     text-decoration: none;
     margin-left: 10px;
@@ -47,7 +80,7 @@
     background-color: transparent;
     color:white;
     border: 2px solid white;
-    font-size: 30px;
+    font-size: 20px;
     transition: ease-in-out 0.5s;
     margin-top: 20px;
 }
@@ -60,7 +93,7 @@
     background-color: transparent;
     color:white;
     border: 2px solid white;
-    font-size: 30px;
+    font-size: 20px;
     transition: ease-in-out 0.5s;
     margin-top: 20px;
 }
@@ -71,10 +104,9 @@
     align-content: center;
 }
 #utilizador{
-    background-color: gray;
     width: 300px;
     height: 300px;
-    border:2px solid lightskyblue;
+    border:2px solid white;
 }
 .Butao:hover {
     border-radius: 25px;
@@ -82,7 +114,13 @@
     border: 2px solid lightskyblue;
     text-decoration: none;
 }
-.ButaoPass:hover {
+.ButaoImg:hover{
+    border-radius: 25px;
+    color: lightskyblue ;
+    border: 2px solid lightskyblue;
+    text-decoration: none;
+}
+#ButaoPass:hover {
     border-radius: 25px;
     color: lightskyblue ;
     border: 2px solid lightskyblue;
