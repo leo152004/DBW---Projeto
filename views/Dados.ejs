@@ -47,30 +47,77 @@
 <div class="container-fluid">
     <div>
     <h1 id="TITULO">Dados Pessoais</h1>
-    <div class="row">
-        <section class="col-lg-6">
+    <div class="container">
+        <section class="column">
             <div id="ImagemContainer">
                 <img src="./images/utilizador.png" id="display">
                 <label class="ButaoImg" for="input-file">Adicionar Imagem</label>
                 <input  type="file" accept="image/png, image/jpg, image/jpeg" name="Adicionar Imagem" id="input-file">
             </div>
         </section>
-        <section class="col-lg-6">
-            <div id="Dados">
-                <p class="Obrigatorio"><Strong>*Dados Obrigatórios</Strong></p>
-                <p class="texto">
-                    <Strong>Nome:</Strong> *Nome de Utilizador*<br><br>
-                    <Strong>Email:</Strong> *Email do Utilizador*<br><br>
-                    <Strong>Password:</Strong> *************** <button id="ButaoPass">Mudar Password</button><br><br>
-                </p>
-
-                <p class="Obrigatorio"><Strong>*Dados Não Obrigatórios</Strong></p>
-                <p class="texto">
-                    <Strong>Telemóvel:</Strong> *Telemóvel de Utilizador* <button class="Butao" href="#">Adicionar Telémovel</button> <br><br>
-                    <Strong>País:</Strong> *Adicione o seu País*<button class="Butao" href="#">Adicionar País</button><br><br>
-                </p>
+        <section class="column">
+            <div class="Dados">
+                <div id="Obrigatorio">
+                    <p class="Obrigatorio"><Strong>*Dados Obrigatórios</Strong></p>
+                    <p class="texto">
+                        <label>
+                            <Strong>Nome:</Strong>
+                            <input class="input" id="name" type="text" placeholder="*Nome do Utilizador*" name="nome" disabled><br><br>
+                        </label>
+                        <label>
+                            <Strong>Email:</Strong>
+                            <input class="input" id="email" placeholder="*Email do Utilizador*" disabled><br><br>
+                        </label>
+                        <label>
+                            <Strong>Password:</Strong>
+                            <input class="input" id="password" placeholder="*Password do Utilizador*" disabled><button id="ButaoPass">Mudar Password</button><br><br>
+                        </label>
+                    </p>
+                </div>
             </div>
         </section>
+        <section class="column">
+            <div class="Dados">
+                <div id="NaoObrigatorio">
+                    <p class="Obrigatorio"><Strong>*Dados Não Obrigatórios</Strong></p>
+                    <p class="texto">
+                        <label>
+                            <Strong>Pais:</Strong>
+                            <input class="input" id="pais" type="text" placeholder="*Pais do Utilizador*" name="pais" disabled><br><br>
+                        </label>
+                        <label>
+                            <Strong>Cidade:</Strong>
+                            <input class="input" id="cidade" placeholder="*Cidade do Utilizador*" name="cidade" disabled><br><br>
+                        </label>
+                        <label>
+                            <Strong>Código-Postal:</Strong>
+                            <input class="input" id="postal" placeholder="*ZipCode do Utilizador*" name="postal" disabled><button id="InserirDados" type="submit" onclick="openPopUp()">Inserir Dados</button><br><br>
+                        </label>
+
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="pop-up" id="popup">
+            <img src="./images/Space%20Soup.png">
+            <h1>Seleciona o teu País,Cidade e Código-Postal</h1>
+            <form class="dropdown-group">
+                <select id="Pais1" size="1">
+                    <option value="" selected="selected">Seleciona o teu Pais</option>
+                </select>
+                <select id="Cidade1" size="1">
+                    <option value="" selected="selected">Seleciona a tua Cidade</option>
+                </select>
+                <select id="Postal1" size="1">
+                    <option value="" selected="selected">Seleciona o teu Código</option>
+                </select>
+
+            </form>
+            <p>
+                <button id="Cancelar" type="submit" onclick="closePopUp()">Cancelar</button>
+                <button id="Confirmar" type="submit">Confirmar</button>
+            </p>
+        </div>
     </div>
     </div>
 </div>
