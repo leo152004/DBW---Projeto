@@ -3,7 +3,7 @@
     font-size:150px;
     margin-top: 2%;
     text-decoration: underline;
-    background-image: linear-gradient(to top, darkblue, blue, dodgerblue);
+    background-image: linear-gradient(to top, darkblue, blueviolet, blue);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -21,7 +21,7 @@
 .Boxes{
     border:1px solid white;
     margin-top: 5%;
-    background-image: linear-gradient(45deg,darkblue,blue);
+    background-image: linear-gradient(45deg,darkblue,blue,blueviolet);
     position: absolute;
     top: 60%;
     left:50%;
@@ -30,16 +30,7 @@
     padding:30px;
     border-radius: 20px;
     color:white;
-}
-.comentario{
-    color:white;
-    border:2px solid yellowgreen;
-    background-color: blue;
-    position: absolute;
-    padding: 10px;
-    margin-top: 30%;
-    margin-left: 37%;
-    border-radius: 2px;
+    z-index: 1;
 }
 
 .suporte{

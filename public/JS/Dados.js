@@ -15,6 +15,28 @@ function openPopUp(){
 }
 function closePopUp(){
     popup.classList.remove("open-popup");
+    let timerInterval;
+    Swal.fire({
+        title: "Closing...",
+        html: "I will close in <b></b> milliseconds.",
+        timer: 1000,
+        timerProgressBar: true,
+        didOpen: () => {
+            Swal.showLoading();
+            const timer = Swal.getPopup().querySelector("b");
+            timerInterval = setInterval(() => {
+                timer.textContent = `${Swal.getTimerLeft()}`;
+            }, 100);
+        },
+        willClose: () => {
+            clearInterval(timerInterval);
+        }
+    }).then((result) => {
+        /* Read more about handling dismissals below */
+        if (result.dismiss === Swal.DismissReason.timer) {
+            console.log("I was closed by the timer");
+        }
+    });
 }
 //Insersão de Coisas relacionadas ao Pais
 const PaisesInfo={
@@ -77,12 +99,23 @@ window.onload = function() {
     let ButaoSubmeter =document.getElementById("Confirmar");
     ButaoSubmeter.addEventListener("click", function (){
         if(CidadeSelect.value === "" || PaisSelect.value=== ""|| CodigoSelect.value === ""){
-            alert("Existe campos nao escolhidos!");
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Tente de Novo!",
+            });
         }
         else{
             Pais.placeholder=PaisSelect.value;
             Cidade.placeholder=CidadeSelect.value;
             Codigo.placeholder=CodigoSelect.value;
+            Swal.fire({
+                position: "middle",
+                icon: "success",
+                title: "Os Dados foram guardados com sucesso!",
+                showConfirmButton: false,
+                timer: 1500
+            });
             popup.classList.remove("open-popup");
         }
     })
