@@ -32,10 +32,11 @@
 }
 .box{
     margin-top:0.5%;
-    width:1200px;
+    width:auto;
     margin-left:650px;
     border-radius: 20px;
     background-color: black;
+    margin-right: 50px;
 }
 #StarBox{
     border:3px solid orange;

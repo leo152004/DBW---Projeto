@@ -1,7 +1,3 @@
-let topic = "";
-let facts = ""
-//const index = require('./index.js');
-
 import OpenAI from 'https://cdn.skypack.dev/openai';
 
 const openai = new OpenAI({
@@ -27,8 +23,8 @@ var moreButtons = document.getElementsByClassName('moreButton');
 // Loop through the buttons and attach the event listener to each one
 for (var i = 0; i < moreButtons.length; i++) {
     moreButtons[i].addEventListener('click', function(event) {
-    topic = event.target.closest('section').querySelector('h2').textContent;
-    facts = event.target.closest('section').querySelector('p').textContent;
+    let topic = event.target.closest('section').querySelector('h2').textContent;
+    let facts = event.target.closest('section').querySelector('p').textContent;
     let addHere = event.target.closest('section').querySelector('p');
     seeMore(topic, facts,addHere);
 })}

@@ -3,58 +3,8 @@ const express = require("express");
 const app = express();
 const passport = require("passport");
 const localStrategy = require("passport-local").Strategy; // Corrected import
-// const {Configuration, OpenAIApi} = require("openai");
-// const dotenv = require('dotenv');
-const OpenAI = require('openai');
 const session = require("express-session");
 const methodOverride = require("method-override");
-
-//dotenv.config();
-
-// //Configura OpenAI
-// const configuration = new Configuration({
-//    apiKey: process.env.OPENAI_API_KEY
-// })
-//
-// const openai = new OpenAIApi(configuration);
-//
-// const seeMore = (topic, facts) => {
-//     app.post("/message", async (req, res) => {
-//         try {
-//             const aiResponse = await openai.createChatCompletion({
-//                 model: "gpt-3.5-turbo-0125",
-//                 messages: [
-//                     {
-//                         role: "user",
-//                         content: `Estes são os factos que eu sei sobre o tópico ${topic}: ${facts}. Dá me outros factos sobre o mesmo tópico`
-//                     }
-//                 ]
-//             })
-//             res.json({
-//                 ai_response: aiResponse.data.choices[0].messages
-//             })
-//         } catch (error) {
-//             console.error(error);
-//         }
-//     })
-// }
-// module.exports = {
-//     seeMore: seeMore
-// };
-app.get('/', (req, res) => {
-    // Process the response data
-    const responseData = processData();
-
-    // Send the response data
-    res.send(responseData);
-});
-
-function processData() {
-    // Process the response data here
-    return 'Processed response data';
-}
-
-module.exports = { processData };
 
 // MongoDB connection
 mongoose.connect('mongodb+srv://franciscoadelino756:FrA31019@francisco3222.beafzh7.mongodb.net/?retryWrites=true&w=majority&appName=francisco3222', { useUnifiedTopology: true, useNewUrlParser: true })
