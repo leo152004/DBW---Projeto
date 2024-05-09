@@ -1,10 +1,8 @@
 
-
 console.log("conected")
 //Imagem de Perfil
 let profilePicture=document.getElementById("display");
 let inputFile=document.getElementById("input-file");
-
 inputFile.onchange=function (){
     profilePicture.src=URL.createObjectURL(inputFile.files[0]);
 }

@@ -18,9 +18,6 @@ mongoose.connect('mongodb+srv://franciscoadelino756:FrA31019@francisco3222.beafz
 // Passport configuration
 const User = require('./Model/UseModel'); // Assuming you have a User model
 
-
-
-
 // Express middleware setup
 app.use(express.static(__dirname + "/public"));
 app.use(express.urlencoded({ extended: true }));
