@@ -27,6 +27,7 @@
     margin-top: 2%;
 }
 .imagem{
+    margin-top: 7.5%;
     width: 550px;
     height: auto;
 }
@@ -160,6 +161,10 @@
     margin-top:1%;
     border:3px solid #0181dc;
 }
+#Universo2{
+    margin-left: 1%;
+    margin-top: 17.5%;
+}
 @media only screen and (max-device-width: 640px) and (min-device-width: 0px){
     body{
         margin:0;
@@ -178,7 +183,11 @@
     .informacoes {
         font-size: 50px;
     }
-
+    #Universo2{
+        display: block;
+        margin-left: 1%;
+        margin-top: 17.5%;
+    }
     .box{
         text-align:left;
         margin-left:0;

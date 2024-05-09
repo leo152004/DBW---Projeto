@@ -172,15 +172,25 @@ body {
 }
 
 .moreButton{
-    background-color:black;
     border-radius: 20px;
-    border-color: blue;
+    background:transparent;
+    border:none;
+    cursor: pointer;
     color: white;
-    display: block;
-    padding: 10px;
-    font-size:40px;
-    margin-top: 100px;
-    margin-left: 900px;
+    display: flex;
+    padding: 5px;
+    font-size:30px;
+    margin-top: 0.5%;
+    margin-left: 62%;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0 5px lightcyan;
+}
+.moreButton:hover{
+    color:lightblue;
+}
+.moreButton:active{
+    box-shadow: 0 5px lightblue;
+    color:lightblue;
 }
 
 @keyframes spin {
@@ -188,6 +198,6 @@ body {
     100% { transform: rotate(360deg); }
 }
 
-.modeButton:after{
+.moreButton:after{
     animation: spin 1s linear infinite;
 }
