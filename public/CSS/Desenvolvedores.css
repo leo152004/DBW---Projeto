@@ -3,7 +3,7 @@
     font-size:150px;
     margin-top: 2%;
     text-decoration: underline;
-    background-image: linear-gradient(to top, darkblue, blue, dodgerblue);
+    background-image: linear-gradient(to top, blue, green, blue);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -13,9 +13,16 @@
 #subtitulo {
     text-align: center;
     font-size: 60px;
-    margin-top: 5%;
     color: white;
     text-decoration: underline;
+}
+#desenvolvedores1{
+    padding-left:5%;
+    padding-right:5%;
+    text-align: justify;
+    font-size: 30px;
+    margin-top: 1%;
+    color: white;
 }
 
 #desenvolvedores {
@@ -33,7 +40,9 @@
     #subtitulo {
         font-size: 70px;
     }
-
+    #desenvolvedores1{
+        font-size: 50px;
+    }
     #desenvolvedores {
         font-size: 50px;
     }
