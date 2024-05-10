@@ -266,4 +266,10 @@
         margin-left:0;
         width:100%;
     }
+
+}
+@media only screen and (max-device-width: 1800px) and (min-device-width: 641px){
+    .imagens {
+        display: none;
+    }
 }

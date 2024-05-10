@@ -228,9 +228,51 @@ select{
 
 @media only screen and (max-device-width: 640px) and (min-device-width: 0px){
     .texto {
-        font-size: 50px;
+        font-size: 100px;
     }
+    .ButaoImg{
+        margin-top:400px;
+        margin-left:130px;
+    }
+    #ImagemContainer{
+        position: absolute;
+        margin-left: 30%
+    }
+    .column{
+        flex: none;
+    }
+    #Dados{
+        margin-top:175%;
+        margin-right: 10%;
+    }
+    .footer{
+        margin-top:100%
+    }
+    .Dados{
+        margin-top: 50%;
+        margin-left:10%;
 
+    }
+    .pop-up h1{display: none;
+    }
+    #Pais1{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    #Cidade1{
+        font-size: 30px;
+    }
+    #Cancelar{
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    #Confirmar{
+        font-size: 30px;
+    }
+    #Postal1{
+        font-size: 30px;
+        width: 100%;
+    }
     .button{
         font-size: 50px;
     }

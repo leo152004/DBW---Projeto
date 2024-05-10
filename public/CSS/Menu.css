@@ -165,10 +165,12 @@ body {
 .menu:hover .buttonDrops3 {display: block;}
 
 .menu:hover .buttonDrop3 {background-color: blue;}
-@media only screen and (max-device-width: 540px) and (min-device-width: 300px){
+@media only screen and (max-device-width: 640px) and (min-device-width: 300px){
     .navigation{
-        display: run-in;
+        display: block;
+
     }
+
 }
 
 .moreButton{
