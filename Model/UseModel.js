@@ -12,6 +12,11 @@ const userSchema = mongoose.Schema({
         required: false,
         unique:false,
     },
+    image: {
+        type: String,
+        required: false,
+        unique: false,
+    },
 });
 
 userSchema.plugin(passportLocalMongoose); //Vai adicionar username e senha

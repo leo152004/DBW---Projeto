@@ -46,6 +46,7 @@ const OutrosRoute = require("./routes/OutrosRoute");
 const SuporteRoute = require("./routes/SuporteRoute");
 const DesenvolvedoresRoute = require("./routes/DesenvolvedoresRoute");
 const DadosRoute = require("./routes/DadosRoute");
+// const atualizaImagemRoute = require("./routes/atualizaImagemRoute");
 
 app.use(MensagemSuporteRoute);
 app.use(PaginaRoute);
@@ -58,6 +59,7 @@ app.use(OutrosRoute);
 app.use(SuporteRoute);
 app.use(DesenvolvedoresRoute);
 app.use(DadosRoute);
+// app.use(atualizaImagemRoute);
 
 // Server listening
 const PORT = 3000;

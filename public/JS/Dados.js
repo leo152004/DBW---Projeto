@@ -7,6 +7,32 @@ let inputFile=document.getElementById("input-file");
 inputFile.onchange=function (){
     profilePicture.src=URL.createObjectURL(inputFile.files[0]);
 }
+//Codigo comentado era suposto enviar o pedido para mudar a imagem de perfil
+// inputFile.onchange = function () {
+//     let formData = new FormData();
+//
+//     formData.append('profilePicture', inputFile.files[0]);
+//
+//     //Enviar para o servidor
+//     fetch('/Routes/atualizaImagemRoute', {
+//         method: 'POST',
+//         body: formData
+//     })
+//         .then(response => response.json())
+//         .then(data => {
+//             if (data.success) {
+//                 // Se foi com sucesso, então mudar a imagem
+//                 profilePicture.src = URL.createObjectURL(inputFile.files[0]);
+//             } else {
+//                  // Se não for, então mostrar um erro na consola
+//                 console.error('Erro na mudança de imagem de perfil:', data.error);
+//             }
+//         })
+//         .catch(error => {
+//             console.error('Erro:', error);
+//         });
+// };
+
 //POP-UP
 let popup = document.getElementById("popup");
 let popup2 =document.getElementById('popup2')
