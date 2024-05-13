@@ -29,4 +29,26 @@ for (var i = 0; i < moreButtons.length; i++) {
         let button = event.target.closest('section').querySelector('button');
         seeMore(topic, facts,addHere);
         button.remove();
+        let timerInterval;
+        Swal.fire({
+            title: "Gerando Informação...",
+            html: "Esta janela vai-se fechar em <b></b> milisegundos.",
+            timer: 6300,
+            timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading();
+                const timer = Swal.getPopup().querySelector("b");
+                timerInterval = setInterval(() => {
+                    timer.textContent = `${Swal.getTimerLeft()}`;
+                }, 100);
+            },
+            willClose: () => {
+                clearInterval(timerInterval);
+            }
+        }).then((result) => {
+            /* Read more about handling dismissals below */
+            if (result.dismiss === Swal.DismissReason.timer) {
+                console.log("I was closed by the timer");
+            }
+        });
     })}

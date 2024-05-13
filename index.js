@@ -4,7 +4,7 @@ const app = express();
 const passport = require("passport");
 const localStrategy = require("passport-local").Strategy; // Corrected import
 const session = require("express-session");
-const methodOverride = require("method-override");
+
 
 // MongoDB connection
 mongoose.connect('mongodb+srv://franciscoadelino756:FrA31019@francisco3222.beafzh7.mongodb.net/?retryWrites=true&w=majority&appName=francisco3222', { useUnifiedTopology: true, useNewUrlParser: true })
@@ -28,7 +28,6 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
-
 passport.use(new localStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());

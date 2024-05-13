@@ -8,7 +8,7 @@ const userSchema = mongoose.Schema({
         unique: true,
     },
 });
-userSchema.plugin(passportLocalMongoose); //Vai adicionar username e password
+userSchema.plugin(passportLocalMongoose); //Vai adicionar username e senha
 //Vamos criar um modelo chamado "User" a partir do esquema e
-//vamos exporta-lo
+//vamos exportá-lo
 module.exports = mongoose.model("User", userSchema);

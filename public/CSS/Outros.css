@@ -26,8 +26,13 @@
     margin-left:1%;
     margin-top: 2%;
 }
+.imagem1{
+    margin-top: 5%;
+    width: 550px;
+    height: auto;
+}
 .imagem{
-    margin-top: 7.5%;
+    margin-top: 8%;
     width: 550px;
     height: auto;
 }
