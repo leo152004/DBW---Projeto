@@ -156,7 +156,18 @@ const PaisesInfo={
         Stuttgart: ["70173", "70174", "70176", "70178", "70180"],
         Dusseldorf: ["40210", "40211", "40212", "40213", "40215"],
         Dortmund: ["44135", "44137", "44139", "44141", "44143"],
-        Essen: ["45127", "45128", "45130", "45131", "45133"],
+        Essen: ["45127", "45128", "45130", "45131", "45133"]
+    },
+    Inglaterra:{
+        Londres: ["SW1A 1AA", "EC1A 1BB", "NW1W 0RH", "SE1 9TG", "W1A 1HQ"],
+        Manchester: ["M1 1AA", "M2 2BB", "M3 3RH", "M4 4TG", "M5 5HQ"],
+        Liverpool: ["L1 1AA", "L2 2BB", "L3 3RH", "L4 4TG", "L5 5HQ"],
+        Birmingham: ["B1 1AA", "B2 2BB", "B3 3RH", "B4 4TG", "B5 5HQ"],
+        Leeds: ["LS1 1AA", "LS2 2BB", "LS3 3RH", "LS4 4TG", "LS5 5HQ"],
+        Newcastle: ["NE1 1AA", "NE2 2BB", "NE3 3RH", "NE4 4TG", "NE5 5HQ"],
+        Bristol: ["BS1 1AA", "BS2 2BB", "BS3 3RH", "BS4 4TG", "BS5 5HQ"],
+        Sheffield: ["S1 1AA", "S2 2BB", "S3 3RH", "S4 4TG", "S5 5HQ"],
+        Leicester: ["LE1 1AA", "LE2 2BB", "LE3 3RH", "LE4 4TG", "LE5 5HQ"]
     }
 }
 window.onload = function() {
