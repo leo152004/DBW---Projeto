@@ -6,27 +6,23 @@
 // // Preparação do Multer
 // const upload = multer({
 //
+//      // Destino da imagem
 //     dest: 'user/',
 //     limits: {
-//         fileSize: 10000000, // Limit file size to 10MB
+//         fileSize: 10000000, // limite 10 MB
 //     },
+//      // Filtro para apenas permitir ficheiros .jpg, .jpeg e .png
 //     fileFilter(req, file, cb) {
 //         if (!file.originalname.match(/\.(jpg|jpeg|png)$/)) {
-//             return cb(new Error('Please upload an image file (jpg, jpeg, or png).'));
+//             return cb(new Error('Por favor enviar uma imagem dos tipos: .jpg, .jpeg ou .png).'));
 //         }
 //         cb(undefined, true);
 //     },
 // });
 //
 // app.post('/Routes/atualizaImagemRoute', upload.single('profilePicture'), (req, res) => {
-//     // req.file is the 'profilePicture' file
-//     // req.body will hold the text fields, if there were any
-//
-//     // Here, you would update the user's profile picture in your database
-//     // For now, we'll just send a success response
 //     res.json({ success: true });
 // }, (error, req, res, next) => {
-//     // This is error handling middleware. If multer or our route handler throws an error, this will run.
 //     res.status(400).json({ error: error.message });
 // });
 //
