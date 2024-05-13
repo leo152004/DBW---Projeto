@@ -70,12 +70,25 @@
                         </label>
                         <label>
                             <Strong>Password:</Strong>
-                            <input class="input" id="password" placeholder="*Password do Utilizador*" disabled><br><br>
+                            <input class="input" id="password" placeholder="*Password do Utilizador*" disabled><button id="Butao2" type="submit" onclick="openPopUp2()">Mudar Dados</button><br><br>
                         </label>
                     </p>
                 </div>
             </div>
         </section>
+        <div class="pop-up2" id="popup2">
+            <img src="./images/Space%20Soup.png">
+            <h1>Insira novamente o seu nome,email e password!</h1>
+            <form class="dropdown-group2">
+                <input type="text" class="input2" id="usernameText"  placeholder="Insira aqui o seu nome:" align="center"><br>
+                <input type="email" class="input2" id="emailText" placeholder="Insira aqui o seu email:" align="center"><br>
+                <input type="password" class="input2" id="passwordText" placeholder="Insira aqui a sua password" align="center">
+            </form>
+            <p>
+                <button id="Cancelar2" type="submit" onclick="closePopUp2()">Cancelar</button>
+                <button id="Confirmar2" type="submit">Confirmar</button>
+            </p>
+        </div>
         <section class="column">
             <div class="Dados" id="Dados">
                 <div id="NaoObrigatorio">
@@ -83,7 +96,7 @@
                     <p class="texto">
                         <label>
                             <Strong>Pais:</Strong>
-                            <input class="input" id="pais" type="text" placeholder="*Pais do Utilizador*" name="pais" disabled><br><br>
+                            <input class="input" id="pais" type="text" placeholder="*Pais do Utilizador*" name="pais"disabled><br><br>
                         </label>
                         <label>
                             <Strong>Cidade:</Strong>

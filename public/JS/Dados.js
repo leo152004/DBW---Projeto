@@ -1,5 +1,6 @@
 
 console.log("conected")
+
 //Imagem de Perfil
 let profilePicture=document.getElementById("display");
 let inputFile=document.getElementById("input-file");
@@ -8,11 +9,70 @@ inputFile.onchange=function (){
 }
 //POP-UP
 let popup = document.getElementById("popup");
+let popup2 =document.getElementById('popup2')
 function openPopUp(){
     popup.classList.add("open-popup");
 }
+function openPopUp2(){
+    popup2.classList.add("open-popup2");
+}
+const usernameSelect = document.querySelector("#usernameText");
+const EmailSelect = document.querySelector("#emailText");
+const PasswordSelect = document.querySelector("#passwordText");
+let username = document.getElementById("name");
+let email = document.getElementById("email");
+let password = document.getElementById("password");
+
+
+let ButaoSubmeter2 =document.getElementById("Confirmar2");
+ButaoSubmeter2.addEventListener("click", function (){
+    if(usernameSelect.value === "" || EmailSelect.value=== ""|| PasswordSelect.value === ""){
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Tente de Novo!",
+        });
+    }
+    else{
+        username.placeholder=usernameSelect.value;
+        email.placeholder=EmailSelect.value;
+        password.placeholder=PasswordSelect.value;
+        Swal.fire({
+            position: "middle",
+            icon: "success",
+            title: "Os Dados foram guardados com sucesso!",
+            showConfirmButton: false,
+            timer: 1500
+        });
+        popup2.classList.remove("open-popup2");
+    }
+})
+function closePopUp2(){
+    let timerInterval2;
+    Swal.fire({
+        title: "Closing...",
+        html: "I will close in <b></b> milliseconds.",
+        timer: 1000,
+        timerProgressBar: true,
+        didOpen: () => {
+            Swal.showLoading();
+            const timer = Swal.getPopup().querySelector("b");
+            timerInterval2 = setInterval(() => {
+                timer.textContent = `${Swal.getTimerLeft()}`;
+            }, 100);
+        },
+        willClose: () => {
+            clearInterval(timerInterval2);
+        }
+    }).then((result) => {
+        /* Read more about handling dismissals below */
+        if (result.dismiss === Swal.DismissReason.timer) {
+            popup2.classList.remove("open-popup2");
+            console.log("I was closed by the timer");
+        }
+    });
+}
 function closePopUp(){
-    popup.classList.remove("open-popup");
     let timerInterval;
     Swal.fire({
         title: "Closing...",
@@ -27,6 +87,7 @@ function closePopUp(){
             }, 100);
         },
         willClose: () => {
+            popup.classList.remove("open-popup");
             clearInterval(timerInterval);
         }
     }).then((result) => {
