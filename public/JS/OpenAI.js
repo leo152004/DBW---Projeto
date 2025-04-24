@@ -2,7 +2,7 @@ import OpenAI from 'https://cdn.skypack.dev/openai';
 
 const openai = new OpenAI({
     // Chave da API usada, tentar usar a ativando pela linha de comandos no tutorial não funcionou quando testado
-    apiKey: "sk-proj-FwUk5TLFnSk2Op5OKNqET3BlbkFJVhrr4ndJ7ZV7upZcjqGk", dangerouslyAllowBrowser: true
+    apiKey: //Adicionar aqui chave para o chatGPt, dangerouslyAllowBrowser: true
 });
 // Função usada para a geração de texto pela API
 async function seeMore(topic, facts, addHere) {
